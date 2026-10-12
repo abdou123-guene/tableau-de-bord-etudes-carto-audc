@@ -1,100 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-<title>Tableau de bord des études cartographiques de l’AUDC</title>
- 
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tableau de bord des études cartographiques de l’AUDC</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
- 
+
 <body>
- 
-<header>
-<h1>Tableau de bord des études cartographiques</h1>
-<p>Suivi des études, cartes et publications de l’AUDC</p>
-</header>
- 
-<main>
- 
-<section id="indicateurs">
-<div class="indicateur">
-<span id="total-projets">0</span>
-<p>Productions</p>
-</div>
- 
-<div class="indicateur">
-<span id="total-en-cours">0</span>
-<p>En cours</p>
-</div>
- 
-<div class="indicateur">
-<span id="total-valides">0</span>
-<p>Validées</p>
-</div>
- 
-<div class="indicateur">
-<span id="total-lizmap">0</span>
-<p>Publications Lizmap</p>
-</div>
-</section>
- 
-<section id="filtres">
-<input
-type="search"
-id="recherche"
-placeholder="Rechercher une étude ou une carte..."
-aria-label="Rechercher une étude ou une carte"
->
- 
-<select id="filtre-thematique" aria-label="Filtrer par thématique">
-<option value="">Toutes les thématiques</option>
-</select>
- 
-<select id="filtre-statut" aria-label="Filtrer par statut">
-<option value="">Tous les statuts</option>
-</select>
- 
-<button id="reinitialiser" type="button">
-Réinitialiser
-</button>
-</section>
- 
-<section class="tableau-conteneur">
-<table id="tableau-projets">
-<thead>
-<tr>
-<th>Thématique</th>
-<th>Code</th>
-<th>Format</th>
-<th>Titre</th>
-<th>Responsable</th>
-<th>Emprise</th>
-<th>Source</th>
-<th>Année</th>
-<th>Priorité</th>
-<th>Statut</th>
-<th>Lizmap</th>
-<th>Commentaires</th>
-</tr>
-</thead>
- 
-<tbody id="corps-tableau">
-<tr>
-<td colspan="12">Chargement des données...</td>
-</tr>
-</tbody>
-</table>
-</section>
- 
-</main>
- 
-<footer>
-<p>AUDC — Tableau de bord des études cartographiques</p>
-</footer>
- 
-script.jsscript>
- 
+
+  <header>
+    <h1>Tableau de bord des études cartographiques</h1>
+    <p>Suivi des études, cartes et publications de l’AUDC</p>
+  </header>
+
+  <main>
+
+    <section id="indicateurs">
+      <div class="indicateur">
+        <span id="total-projets">0</span>
+        <p>Productions</p>
+      </div>
+
+      <div class="indicateur">
+        <span id="total-en-cours">0</span>
+        <p>En cours</p>
+      </div>
+
+      <div class="indicateur">
+        <span id="total-valides">0</span>
+        <p>Validées</p>
+      </div>
+
+      <div class="indicateur">
+        <span id="total-lizmap">0</span>
+        <p>Publications Lizmap</p>
+      </div>
+    </section>
+
+    <section id="filtres">
+      <input
+        type="search"
+        id="recherche"
+        placeholder="Rechercher une étude ou une carte..."
+        aria-label="Rechercher une étude ou une carte"
+      >
+
+      <select id="filtre-thematique" aria-label="Filtrer par thématique">
+        <option value="">Toutes les thématiques</option>
+      </select>
+
+      <select id="filtre-statut" aria-label="Filtrer par statut">
+        <option value="">Tous les statuts</option>
+      </select>
+
+      <button id="reinitialiser" type="button">
+        Réinitialiser
+      </button>
+    </section>
+
+    <section class="tableau-conteneur">
+      <table id="tableau-projets">
+        <thead>
+          <tr>
+            <th>Thématique</th>
+            <th>Code</th>
+            <th>Format</th>
+            <th>Titre</th>
+            <th>Responsable</th>
+            <th>Emprise</th>
+            <th>Source</th>
+            <th>Année</th>
+            <th>Priorité</th>
+            <th>Statut</th>
+            <th>Lizmap</th>
+            <th>Commentaires</th>
+          </tr>
+        </thead>
+
+        <tbody id="corps-tableau">
+          <tr>
+            <td colspan="12">Chargement des données...</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>AUDC — Tableau de bord des études cartographiques</p>
+  </footer>
+
+  script.jsscript>
+
 </body>
 </html>
