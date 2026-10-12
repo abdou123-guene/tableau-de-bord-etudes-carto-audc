@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Tableau de bord des études cartographiques de l’AUDC</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -23,17 +21,14 @@
         <span id="total-projets">0</span>
         <p>Productions</p>
       </div>
-
       <div class="indicateur">
         <span id="total-en-cours">0</span>
         <p>En cours</p>
       </div>
-
       <div class="indicateur">
         <span id="total-valides">0</span>
         <p>Validées</p>
       </div>
-
       <div class="indicateur">
         <span id="total-lizmap">0</span>
         <p>Publications Lizmap</p>
@@ -41,12 +36,9 @@
     </section>
 
     <section id="filtres">
-      <input
-        type="search"
-        id="recherche"
-        placeholder="Rechercher une étude ou une carte..."
-        aria-label="Rechercher une étude ou une carte"
-      >
+      <input type="search" id="recherche"
+             placeholder="Rechercher une étude ou une carte..."
+             aria-label="Rechercher une étude ou une carte">
 
       <select id="filtre-thematique" aria-label="Filtrer par thématique">
         <option value="">Toutes les thématiques</option>
@@ -56,9 +48,7 @@
         <option value="">Tous les statuts</option>
       </select>
 
-      <button id="reinitialiser" type="button">
-        Réinitialiser
-      </button>
+      <button id="reinitialiser" type="button">Réinitialiser</button>
     </section>
 
     <section class="tableau-conteneur">
@@ -79,7 +69,6 @@
             <th>Commentaires</th>
           </tr>
         </thead>
-
         <tbody id="corps-tableau">
           <tr>
             <td colspan="12">Chargement des données...</td>
@@ -94,7 +83,7 @@
     <p>AUDC — Tableau de bord des études cartographiques</p>
   </footer>
 
-  script.jsscript>
+  <script src="script.js" defer></script>
 
 </body>
 </html>
